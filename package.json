@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/zipprob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zip timestamps and prob durations for scripts and CI receipts.",
+  "bin": {
+    "zipprob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/zipprob.git"
+  },
+  "homepage": "https://theworker02.github.io/zipprob/",
+  "keywords": [
+    "zip",
+    "prob",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
